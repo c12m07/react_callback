@@ -1,0 +1,51 @@
+.ChildBox{
+  margin: 5%;
+  border: 3px dashed #93A2BF;
+  width: 320px;
+  height: 320px;
+  padding: 20px 40px;
+}
+
+.ChildBox h3{
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.ClickHere{
+  user-select: none;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #626C80;
+  color: #272B33;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms;
+}
+
+.ClickHere:hover{
+  background-color: #93A2BF;
+  box-shadow: 0 0 10px #626C80;
+  color: #272B33;
+}
+
+.ClickHere:active{
+  background-color: #313640;
+  color: #626C80;
+  box-shadow: 0 0 20px inset #626C80,
+    0 0 10px #626C80;
+}
+
+.ChildBox p{
+  font-size: 20px;
+}
+
+.ChildBox p span{
+  color: aqua;
+}
+
+.ChildBox .span2{
+  color: rgb(26, 196, 26);
+}
